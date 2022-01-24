@@ -24,7 +24,7 @@ ingress:
 server:
   workers: 3
   node:
-    environment: production
+    environment: staging
     dataDir: /data/trino
     pluginDir: /usr/lib/trino/plugin
   log:
